@@ -1,4 +1,4 @@
-## Traffic Signal Controller for Intersection
+## Traffic Signal Controller
 
 This project implements a Traffic Signal Controller as a finite state machine (FSM) to manage signals at an intersection of Highway and Country Road.
 
@@ -8,6 +8,10 @@ This project implements a Traffic Signal Controller as a finite state machine (F
 - **Sensor-Driven**: A sensor on Country Road detects vehicles:
   - **High**: Car detected.
   - **Low**: No car detected.
+ 
+<p align="center">
+  <img src="[https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true](https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/11322cf4-c44a-478c-808b-e8d7f6aed433)" alt="Sublime's custom image"/>
+</p>
 
 ### Signal Behavior
 
@@ -27,4 +31,4 @@ This project implements a Traffic Signal Controller as a finite state machine (F
    - Highway returns to green after Country Road turns red.
 
 This system ensures smooth traffic flow, prioritizing the Highway while accommodating Country Road vehicles when detected.
-                                                                        ![TSC diagram (1)](https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/11322cf4-c44a-478c-808b-e8d7f6aed433)
+                                                                        ![TSC diagram (1)]()
