@@ -1,2 +1,30 @@
-Traffic Signal Controller is a finite state machine that is capable of controlling traffic lights or signals at a street intersection. There are two orthogonal streets Highway and Country Road, where Highway is the primary Road and has a higher precedence over Country Road. There is a sensor at country road that detects if there are any car waiting on country road. If the sensor detects a car, it will have a output 1 with value “High” or a value “Low” if there is no car on street B. If we have a green signal at Highway, it must be green for at least 60 seconds. If there is no car on country road i.e. if the sensor doesn’t detect any car then signal of highway stays green always. If the sensor detects a car on country road, then signal of highway turns orange or yellow for 10 seconds and then signal of country road turns Green with highway signal turning Red. Now when country road has green signal, it stays green for duration of 30 seconds (or may be less than 30 seconds if sensor signal goes low) before turning orange for 10 seconds and then to red. Once country road signal turns red, highway A turns to green again.
+## Traffic Signal Controller for Intersection
+
+This project implements a Traffic Signal Controller as a finite state machine (FSM) to manage signals at an intersection of Highway and Country Road.
+
+### Key Features
+
+- **Priority System**: Highway has higher priority over Country Road.
+- **Sensor-Driven**: A sensor on Country Road detects vehicles:
+  - **High**: Car detected.
+  - **Low**: No car detected.
+
+### Signal Behavior
+
+1. **Highway Green**:
+   - Stays green for at least 60 seconds.
+   - Remains green indefinitely if no car is detected on Country Road.
+
+2. **Car Detected on Country Road**:
+   - Highway turns yellow for 10 seconds, then red.
+   - Country Road turns green after Highway turns red.
+
+3. **Country Road Green**:
+   - Stays green for up to 30 seconds or until no car is detected.
+   - Turns yellow for 10 seconds before switching to red.
+
+4. **Cycle Reset**:
+   - Highway returns to green after Country Road turns red.
+
+This system ensures smooth traffic flow, prioritizing the Highway while accommodating Country Road vehicles when detected.
                                                                         ![TSC diagram (1)](https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/11322cf4-c44a-478c-808b-e8d7f6aed433)
