@@ -10,7 +10,7 @@ This project implements a Traffic Signal Controller as a finite state machine (F
   - **Low**: No car detected.
  
 <p align="center">
-  <img src="[https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/84ecbaa0-696f-4a19-8c94-f1c02d2f2938]" />
+  <img src="https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/84ecbaa0-696f-4a19-8c94-f1c02d2f2938" />
 </p>
 
 ### Signal Behavior
