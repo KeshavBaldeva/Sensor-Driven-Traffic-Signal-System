@@ -1,4 +1,4 @@
-## Traffic Signal Controller
+## Sensor-Driven Traffic Signal System
 
 This project implements a Traffic Signal Controller as a finite state machine (FSM) to manage signals at an intersection of Highway and Country Road.
 
