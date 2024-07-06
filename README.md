@@ -13,6 +13,12 @@ This project implements a Traffic Signal Controller as a finite state machine (F
   <img src="https://github.com/KeshavBaldeva/Traffic-Signal-Controller/assets/152970391/84ecbaa0-696f-4a19-8c94-f1c02d2f2938" />
 </p>
 
+### FSM Diagram
+<p align="center">
+  <img src="<img width="290" alt="Screenshot 2024-07-06 190608" src="https://github.com/KeshavBaldeva/Sensor-Driven-Traffic-Signal-System/assets/152970391/9ad224ce-06e7-4d2e-8e3d-0430aff65999">
+" />
+</p>
+
 ### Signal Behavior
 
 1. **Highway Green**:
